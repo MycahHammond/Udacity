@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">App Portfolio</string>
+    <string name="spotify">Spotify Streamer</string>
+    <string name="scores">Scores</string>
+    <string name="library">Library</string>
+    <string name="buildIt">Build It Bigger</string>
+    <string name="xyz">XYZ Reader</string>
+    <string name="capstone">Capstone</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

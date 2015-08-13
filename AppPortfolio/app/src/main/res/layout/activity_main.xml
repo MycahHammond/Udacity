@@ -1,0 +1,85 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="@dimen/abc_action_bar_default_height_material"
+        android:background="#fff">
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/spotify"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:id="@+id/button_spotify"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toasty" />
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/scores"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:id="@+id/button_scores"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:onClick="toasty" />
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:id="@+id/button_library"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:onClick="toasty"/>
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/buildIt"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:id="@+id/button_buildIt"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:onClick="toasty"/>
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/xyz"
+            android:background="#2196F3"
+            android:textColor="#FFF"
+            android:id="@+id/button_xyz"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:onClick="toasty"/>
+
+        <Button
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone"
+            android:textStyle="bold"
+            android:background="#ff5722"
+            android:textColor="#FFF"
+            android:id="@+id/button_capstone"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:onClick="toasty"/>
+
+    </LinearLayout>
+
+</ScrollView>
